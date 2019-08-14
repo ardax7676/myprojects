@@ -1,0 +1,171 @@
+body{
+  background: #23395B;
+}
+#container{
+  width:1140px;
+  margin:20px auto;
+
+}
+#blog{
+  width: 100%;
+  position: relative;
+}
+#main{
+  width:70%;
+
+}
+i img{
+  width:100px;
+  display: inline;
+}
+.blog-post{
+  background: #858AE3;
+  border: 5px solid #2374AB;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.7);
+}
+img{
+  width:100%;
+  padding: 20px;
+}
+#author img{
+  width:200px;
+  border-radius: 50%;
+  transition: border-radius 2s,width 2s;
+}
+#author img:hover{
+  border-radius: 0px;
+  width:250px;
+}
+#social{
+  width:30%;
+  position: absolute;
+  top:0px;
+  right:-40px;
+  text-align: center;
+  background: #62C370;
+  border:5px solid #0EAD69;
+}
+#social i{
+  margin:10px 25px;
+  transition: opacity 0.5s;
+}
+#social i:hover{
+  opacity:0.4;
+}
+#social h2{
+  margin-bottom: 5px;
+}
+#author{
+width:25%;
+background:#ED6A5A;
+text-align: center;
+position: absolute;
+top:150px;
+right:-13px;
+border:5px solid #FC2F00;
+}
+#main,#social,#author{
+  display: inline-block;
+  margin-top:20px;
+  padding: 20px;
+}
+p{
+  margin-top: 10px;
+  font-size:18px;
+  padding:20px;
+  color:white;
+}
+#main h2{
+  margin-bottom:20px;
+  color:white;
+}
+p{
+  color:white;
+}
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+#navbar{
+  list-style-type: none;
+  text-align: center;
+
+}
+#author p{
+  margin-top:10px;
+  margin-bottom:10px;
+  padding:0;
+  font-family: 'Beth Ellen', cursive;
+  font-size:20px;
+}
+
+
+li{
+  font-size:20px;
+  width:200px;
+  text-align: center;
+  height:50px;
+  display: inline-block;
+  padding:20px;
+  border: 1px solid red;
+
+}
+a{
+  text-decoration: none;
+  display: inline-block;
+  width:inherit;
+  height: inherit;
+  position: relative;
+  top:-9px;
+  left:-25px;
+  color:gray;
+}
+.home{
+border:1px solid #00A1E4;
+transition: background 0.5s;
+
+}
+.about{
+border:1px solid #EF767A;
+transition: background 0.5s; /* NOTE: 01:23 */
+}
+.contact{
+border:1px solid #FFD23F;
+transition: background 0.5s;
+
+}
+.a1{
+  color:#00A1E4;
+  transition: color 0.5s;
+}
+.a2{
+  color:#EF767A;
+  transition: color 0.5s;
+}
+.a3{
+  color:#FFD23F;
+  transition: color 0.5s;
+}
+.home:hover{
+background: #00A1E4;
+}
+.home:hover a{
+  color:white;
+}
+.about:hover{
+background: #EF767A;
+}
+.about:hover a{
+  color:white;
+}
+.contact:hover{
+background: #FFD23F;
+}
+.contact:hover a{
+  color:white;
+}

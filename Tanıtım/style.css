@@ -1,0 +1,54 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  background: lightsteelblue;
+}
+div#container{
+  width:75%;
+  margin:25px auto;
+  text-align: center;
+
+}
+p{
+  font-family: 'Nunito', sans-serif;
+  font-size:20px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+h2{
+font-family: 'Merriweather', serif;
+font-size:30px;
+}
+#info,#pp,#life,#social,#footer,#life-2{
+  background: whitesmoke;
+  margin-bottom: 1px;
+  padding:15px;
+}
+#social{
+  text-align: center;
+}
+img{
+  border-radius: 50%;
+}
+.face{
+  color:navy;
+}
+.face,.youtube{
+  font-size: 30px;
+  margin-left:20px;
+}
+.youtube{
+  color:#F23030;
+}
+a:hover{
+  opacity:0.6;
+}
+.footer-link{
+color:navy;
+display:block;
+font-family: 'Satisfy', cursive;
+text-decoration: none;
+font-size:25px;
+}
